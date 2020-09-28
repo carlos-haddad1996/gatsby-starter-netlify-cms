@@ -1,6 +1,6 @@
 import simpleOauthModule from 'simple-oauth2';
 
-export const create = () => {
+export const create = () =>
     simpleOauthModule.create({
         client: {
             id: process.env.OAUTH_CLIENT_ID,
@@ -12,7 +12,6 @@ export const create = () => {
             authorizePath: `/login/oauth/authorize`,
         },
     });
-};
 
 type RenderBody = {
     (status: 'success', content: { token: string; provider: 'github' }): string;
