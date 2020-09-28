@@ -2,7 +2,7 @@ backend:
     name: github
     branch: master
     repo: gatsby-starter-netlify-cms
-    base_url: https://lucid-boyd-fbf350.netlify.app/
+    base_url: https://gatsby-starter-netlify-cms-two.vercel.app
     auth_endpoint: api/auth
     commit_messages:
         create: 'Create {{collection}} “{{slug}}”'
