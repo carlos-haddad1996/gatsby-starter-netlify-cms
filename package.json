@@ -33,10 +33,15 @@
         "vercel": "^20.1.1",
         "@now/node": "^1.4.1",
         "@types/simple-oauth2": "^2.5.2",
-        "simple-oauth2": "^2.5.2"
+        "simple-oauth2": "^2.5.2",
+        "dotenv": "^2.0.0",
+        "express": "^4.15.2",
+        "randomstring": "^1.1.5"
     },
     "keywords": [
-        "gatsby"
+        "gatsby",
+        "cms",
+        "auth"
     ],
     "license": "MIT",
     "main": "n/a",
