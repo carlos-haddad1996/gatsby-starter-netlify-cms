@@ -7,8 +7,16 @@
     </head>
     <body>
         <!-- Include the script that builds the page and powers Netlify CMS -->
+        <script>
+            // Disable CMS auto initialization - this allows the configuration file to
+            // be augmented by script.
+            window.CMS_MANUAL_INIT = true;
+        </script>
+        <script src="https://unpkg.com/dayjs@^1.8.18/dayjs.min.js"></script>
+        <script src="https://unpkg.com/dayjs@^1.8.18/plugin/utc.js"></script>
+        <script src="https://unpkg.com/marked@^0.8.0/marked.min.js"></script>
         <script src="https://unpkg.com/netlify-cms@^2.10.1/dist/netlify-cms.js"></script>
         <script src="https://unpkg.com/@babel/standalone@7.9.0/babel.min.js"></script>
-        <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+        <script src="config.yml" type="text/babel"></script>
     </body>
 </html>
