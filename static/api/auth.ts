@@ -11,7 +11,7 @@ export default (req: NowRequest, res: NowResponse) => {
 
     const url = oauth2.authorizationCode.authorizeURL({
         redirect_uri: `https://${host}/api/callback`,
-        scope: `repo,user`,
+        scope: `gatsby-starter-netlify-cms,carlos-haddad1996`,
         state: randomString(),
     });
 
