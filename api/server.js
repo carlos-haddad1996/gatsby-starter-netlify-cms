@@ -22,6 +22,7 @@ const oauth2 = simpleOauthModule.create({
 });
 
 const originPattern = process.env.ORIGIN || '';
+console.log({ originPattern });
 if (''.match(originPattern)) {
     console.warn(
         'Insecure ORIGIN pattern used. This can give unauthorized users access to your repository.'
