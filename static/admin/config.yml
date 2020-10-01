@@ -2,8 +2,8 @@ backend:
     name: github
     branch: master
     repo: carlos-haddad1996/gatsby-starter-netlify-cms
-    base_url: https://gatsby-starter.auth.com
-    auth_endpoint: api/auth
+    base_url: https://gatsby-starter-netlify-cms-two.vercel.app/api/server
+    auth_endpoint: api/server
     commit_messages:
         create: 'Create {{collection}} “{{slug}}”'
         update: 'Update {{collection}} “{{slug}}”'
