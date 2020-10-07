@@ -6,6 +6,7 @@ export const randomString = () => crypto.randomBytes(4).toString(`hex`);
 
 export default (req: NowRequest, res: NowResponse) => {
     const { host } = req.headers;
+    console.log(host);
 
     const oauth2 = create();
 
