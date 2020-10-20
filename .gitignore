@@ -9,4 +9,4 @@ static/admin/*.bundle.*
 yarn-error.log
 
 .vercel
-.env
+.env*
